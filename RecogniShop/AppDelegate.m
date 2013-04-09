@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  RecogniShop
 //
-//  Created by Daniel López on 09/04/13.
+//  Created by Daniel López on 08/04/13.
 //  Copyright (c) 2013 Daniel López. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "FirstViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    FirstViewController *firstVC = [[FirstViewController alloc] init];
+    
+    _navController = [[UINavigationController alloc] initWithRootViewController:firstVC];
+    [[self window] setRootViewController:_navController];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
