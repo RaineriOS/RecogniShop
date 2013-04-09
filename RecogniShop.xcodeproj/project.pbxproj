@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6579FB22171417F10071B773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579FB21171417F10071B773 /* UIKit.framework */; };
+		6579FB24171417F10071B773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579FB23171417F10071B773 /* Foundation.framework */; };
+		6579FB26171417F10071B773 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579FB25171417F10071B773 /* CoreGraphics.framework */; };
+		6579FB2C171417F10071B773 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6579FB2A171417F10071B773 /* InfoPlist.strings */; };
+		6579FB2E171417F10071B773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579FB2D171417F10071B773 /* main.m */; };
+		6579FB32171417F10071B773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579FB31171417F10071B773 /* AppDelegate.m */; };
+		6579FB34171417F10071B773 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6579FB33171417F10071B773 /* Default.png */; };
+		6579FB36171417F10071B773 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6579FB35171417F10071B773 /* Default@2x.png */; };
+		6579FB38171417F10071B773 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6579FB37171417F10071B773 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6579FB1E171417F10071B773 /* RecogniShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecogniShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6579FB21171417F10071B773 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6579FB23171417F10071B773 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6579FB25171417F10071B773 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6579FB29171417F10071B773 /* RecogniShop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecogniShop-Info.plist"; sourceTree = "<group>"; };
+		6579FB2B171417F10071B773 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6579FB2D171417F10071B773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6579FB2F171417F10071B773 /* RecogniShop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecogniShop-Prefix.pch"; sourceTree = "<group>"; };
+		6579FB30171417F10071B773 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6579FB31171417F10071B773 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6579FB33171417F10071B773 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6579FB35171417F10071B773 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6579FB37171417F10071B773 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6579FB1B171417F10071B773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6579FB22171417F10071B773 /* UIKit.framework in Frameworks */,
+				6579FB24171417F10071B773 /* Foundation.framework in Frameworks */,
+				6579FB26171417F10071B773 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6579FB15171417F10071B773 = {
+			isa = PBXGroup;
+			children = (
+				6579FB27171417F10071B773 /* RecogniShop */,
+				6579FB20171417F10071B773 /* Frameworks */,
+				6579FB1F171417F10071B773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6579FB1F171417F10071B773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6579FB1E171417F10071B773 /* RecogniShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6579FB20171417F10071B773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6579FB21171417F10071B773 /* UIKit.framework */,
+				6579FB23171417F10071B773 /* Foundation.framework */,
+				6579FB25171417F10071B773 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6579FB27171417F10071B773 /* RecogniShop */ = {
+			isa = PBXGroup;
+			children = (
+				6579FB30171417F10071B773 /* AppDelegate.h */,
+				6579FB31171417F10071B773 /* AppDelegate.m */,
+				6579FB28171417F10071B773 /* Supporting Files */,
+			);
+			path = RecogniShop;
+			sourceTree = "<group>";
+		};
+		6579FB28171417F10071B773 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6579FB29171417F10071B773 /* RecogniShop-Info.plist */,
+				6579FB2A171417F10071B773 /* InfoPlist.strings */,
+				6579FB2D171417F10071B773 /* main.m */,
+				6579FB2F171417F10071B773 /* RecogniShop-Prefix.pch */,
+				6579FB33171417F10071B773 /* Default.png */,
+				6579FB35171417F10071B773 /* Default@2x.png */,
+				6579FB37171417F10071B773 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6579FB1D171417F10071B773 /* RecogniShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6579FB3B171417F10071B773 /* Build configuration list for PBXNativeTarget "RecogniShop" */;
+			buildPhases = (
+				6579FB1A171417F10071B773 /* Sources */,
+				6579FB1B171417F10071B773 /* Frameworks */,
+				6579FB1C171417F10071B773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecogniShop;
+			productName = RecogniShop;
+			productReference = 6579FB1E171417F10071B773 /* RecogniShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6579FB16171417F10071B773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Daniel López";
+			};
+			buildConfigurationList = 6579FB19171417F10071B773 /* Build configuration list for PBXProject "RecogniShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6579FB15171417F10071B773;
+			productRefGroup = 6579FB1F171417F10071B773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6579FB1D171417F10071B773 /* RecogniShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6579FB1C171417F10071B773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6579FB2C171417F10071B773 /* InfoPlist.strings in Resources */,
+				6579FB34171417F10071B773 /* Default.png in Resources */,
+				6579FB36171417F10071B773 /* Default@2x.png in Resources */,
+				6579FB38171417F10071B773 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6579FB1A171417F10071B773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6579FB2E171417F10071B773 /* main.m in Sources */,
+				6579FB32171417F10071B773 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6579FB2A171417F10071B773 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6579FB2B171417F10071B773 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6579FB39171417F10071B773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6579FB3A171417F10071B773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6579FB3C171417F10071B773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecogniShop/RecogniShop-Prefix.pch";
+				INFOPLIST_FILE = "RecogniShop/RecogniShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6579FB3D171417F10071B773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecogniShop/RecogniShop-Prefix.pch";
+				INFOPLIST_FILE = "RecogniShop/RecogniShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6579FB19171417F10071B773 /* Build configuration list for PBXProject "RecogniShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6579FB39171417F10071B773 /* Debug */,
+				6579FB3A171417F10071B773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6579FB3B171417F10071B773 /* Build configuration list for PBXNativeTarget "RecogniShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6579FB3C171417F10071B773 /* Debug */,
+				6579FB3D171417F10071B773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6579FB16171417F10071B773 /* Project object */;
+}
