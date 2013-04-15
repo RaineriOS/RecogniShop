@@ -20,6 +20,8 @@
 		6539AB7B17132CAC0047395C /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6539AB7917132CAC0047395C /* FirstViewController.xib */; };
 		6539AB7F17134B5B0047395C /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539AB7D17134B5B0047395C /* ProductViewController.m */; };
 		6539AB8017134B5B0047395C /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6539AB7E17134B5B0047395C /* ProductViewController.xib */; };
+		65916320171C451B00B4AD9D /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591631E171C451B00B4AD9D /* ProductsViewController.m */; };
+		65916321171C451B00B4AD9D /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6591631F171C451B00B4AD9D /* ProductsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		6539AB7C17134B5B0047395C /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
 		6539AB7D17134B5B0047395C /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
 		6539AB7E17134B5B0047395C /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		6591631D171C451B00B4AD9D /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		6591631E171C451B00B4AD9D /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		6591631F171C451B00B4AD9D /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 				6539AB7717132CAC0047395C /* FirstViewController.h */,
 				6539AB7817132CAC0047395C /* FirstViewController.m */,
 				6539AB7917132CAC0047395C /* FirstViewController.xib */,
+				6591631D171C451B00B4AD9D /* ProductsViewController.h */,
+				6591631E171C451B00B4AD9D /* ProductsViewController.m */,
+				6591631F171C451B00B4AD9D /* ProductsViewController.xib */,
 				6539AB6117132AF30047395C /* Supporting Files */,
 			);
 			path = RecogniShop;
@@ -172,6 +180,7 @@
 				6539AB7117132AF30047395C /* Default-568h@2x.png in Resources */,
 				6539AB7B17132CAC0047395C /* FirstViewController.xib in Resources */,
 				6539AB8017134B5B0047395C /* ProductViewController.xib in Resources */,
+				65916321171C451B00B4AD9D /* ProductsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +195,7 @@
 				6539AB6B17132AF30047395C /* AppDelegate.m in Sources */,
 				6539AB7A17132CAC0047395C /* FirstViewController.m in Sources */,
 				6539AB7F17134B5B0047395C /* ProductViewController.m in Sources */,
+				65916320171C451B00B4AD9D /* ProductsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +310,7 @@
 				6539AB7617132AF30047395C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
