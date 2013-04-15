@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Daniel López. All rights reserved.
 //
 
-#import "ProductViewController.h"
+#import "DetailViewController.h"
 
-@interface ProductViewController ()
+@interface DetailViewController ()
 
 @end
 
-@implementation ProductViewController
+@implementation DetailViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

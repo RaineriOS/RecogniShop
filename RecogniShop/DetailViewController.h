@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ProductViewController : UIViewController
+@interface DetailViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *stockLabel;

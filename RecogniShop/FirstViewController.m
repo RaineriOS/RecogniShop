@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-#import "ProductViewController.h"
+#import "DetailViewController.h"
 
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
 
@@ -66,7 +66,7 @@
     NSLog(@"%@",name);
     NSLog(@"%@",stock);
     
-    ProductViewController *productVC = [[ProductViewController alloc] initWithName:name stock:stock];
+    DetailViewController *productVC = [[DetailViewController alloc] initWithName:name stock:stock];
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:productVC];
     [self presentViewController:navController animated:YES completion:nil];
