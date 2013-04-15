@@ -26,6 +26,8 @@
 		65916326171C465A00B4AD9D /* StoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65916324171C465A00B4AD9D /* StoresViewController.xib */; };
 		6591632A171C469000B4AD9D /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65916328171C469000B4AD9D /* FavoritesViewController.m */; };
 		6591632B171C469000B4AD9D /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65916329171C469000B4AD9D /* FavoritesViewController.xib */; };
+		6591632F171C46B100B4AD9D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591632D171C46B100B4AD9D /* ProfileViewController.m */; };
+		65916330171C46B100B4AD9D /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6591632E171C46B100B4AD9D /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,9 @@
 		65916327171C469000B4AD9D /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
 		65916328171C469000B4AD9D /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		65916329171C469000B4AD9D /* FavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		6591632C171C46B100B4AD9D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		6591632D171C46B100B4AD9D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		6591632E171C46B100B4AD9D /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				65916327171C469000B4AD9D /* FavoritesViewController.h */,
 				65916328171C469000B4AD9D /* FavoritesViewController.m */,
 				65916329171C469000B4AD9D /* FavoritesViewController.xib */,
+				6591632C171C46B100B4AD9D /* ProfileViewController.h */,
+				6591632D171C46B100B4AD9D /* ProfileViewController.m */,
+				6591632E171C46B100B4AD9D /* ProfileViewController.xib */,
 				6539AB6117132AF30047395C /* Supporting Files */,
 			);
 			path = RecogniShop;
@@ -199,6 +207,7 @@
 				65916321171C451B00B4AD9D /* ProductsViewController.xib in Resources */,
 				65916326171C465A00B4AD9D /* StoresViewController.xib in Resources */,
 				6591632B171C469000B4AD9D /* FavoritesViewController.xib in Resources */,
+				65916330171C46B100B4AD9D /* ProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +225,7 @@
 				65916320171C451B00B4AD9D /* ProductsViewController.m in Sources */,
 				65916325171C465A00B4AD9D /* StoresViewController.m in Sources */,
 				6591632A171C469000B4AD9D /* FavoritesViewController.m in Sources */,
+				6591632F171C46B100B4AD9D /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
