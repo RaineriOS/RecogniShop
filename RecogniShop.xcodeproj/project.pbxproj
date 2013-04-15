@@ -28,6 +28,7 @@
 		6591632B171C469000B4AD9D /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65916329171C469000B4AD9D /* FavoritesViewController.xib */; };
 		6591632F171C46B100B4AD9D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591632D171C46B100B4AD9D /* ProfileViewController.m */; };
 		65916330171C46B100B4AD9D /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6591632E171C46B100B4AD9D /* ProfileViewController.xib */; };
+		65916332171C479C00B4AD9D /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65916331171C479C00B4AD9D /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		6591632C171C46B100B4AD9D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		6591632D171C46B100B4AD9D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		6591632E171C46B100B4AD9D /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		65916331171C479C00B4AD9D /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				6539AB6917132AF30047395C /* AppDelegate.h */,
 				6539AB6A17132AF30047395C /* AppDelegate.m */,
+				65916331171C479C00B4AD9D /* TabBarController.xib */,
 				6539AB7C17134B5B0047395C /* DetailViewController.h */,
 				6539AB7D17134B5B0047395C /* DetailViewController.m */,
 				6539AB7E17134B5B0047395C /* DetailViewController.xib */,
@@ -208,6 +211,7 @@
 				65916326171C465A00B4AD9D /* StoresViewController.xib in Resources */,
 				6591632B171C469000B4AD9D /* FavoritesViewController.xib in Resources */,
 				65916330171C46B100B4AD9D /* ProfileViewController.xib in Resources */,
+				65916332171C479C00B4AD9D /* TabBarController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
