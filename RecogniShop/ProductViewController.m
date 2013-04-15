@@ -38,7 +38,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    _nameLabel.text = _name;
+    self.title = _name;
     _stockLabel.text = _stock.stringValue;
     
 }
