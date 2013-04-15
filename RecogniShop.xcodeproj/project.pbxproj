@@ -22,6 +22,8 @@
 		6539AB8017134B5B0047395C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6539AB7E17134B5B0047395C /* DetailViewController.xib */; };
 		65916320171C451B00B4AD9D /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591631E171C451B00B4AD9D /* ProductsViewController.m */; };
 		65916321171C451B00B4AD9D /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6591631F171C451B00B4AD9D /* ProductsViewController.xib */; };
+		65916325171C465A00B4AD9D /* StoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65916323171C465A00B4AD9D /* StoresViewController.m */; };
+		65916326171C465A00B4AD9D /* StoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65916324171C465A00B4AD9D /* StoresViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,9 @@
 		6591631D171C451B00B4AD9D /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
 		6591631E171C451B00B4AD9D /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
 		6591631F171C451B00B4AD9D /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
+		65916322171C465A00B4AD9D /* StoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoresViewController.h; sourceTree = "<group>"; };
+		65916323171C465A00B4AD9D /* StoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoresViewController.m; sourceTree = "<group>"; };
+		65916324171C465A00B4AD9D /* StoresViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoresViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,9 @@
 				6591631D171C451B00B4AD9D /* ProductsViewController.h */,
 				6591631E171C451B00B4AD9D /* ProductsViewController.m */,
 				6591631F171C451B00B4AD9D /* ProductsViewController.xib */,
+				65916322171C465A00B4AD9D /* StoresViewController.h */,
+				65916323171C465A00B4AD9D /* StoresViewController.m */,
+				65916324171C465A00B4AD9D /* StoresViewController.xib */,
 				6539AB6117132AF30047395C /* Supporting Files */,
 			);
 			path = RecogniShop;
@@ -181,6 +189,7 @@
 				6539AB7B17132CAC0047395C /* FirstViewController.xib in Resources */,
 				6539AB8017134B5B0047395C /* DetailViewController.xib in Resources */,
 				65916321171C451B00B4AD9D /* ProductsViewController.xib in Resources */,
+				65916326171C465A00B4AD9D /* StoresViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +205,7 @@
 				6539AB7A17132CAC0047395C /* FirstViewController.m in Sources */,
 				6539AB7F17134B5B0047395C /* DetailViewController.m in Sources */,
 				65916320171C451B00B4AD9D /* ProductsViewController.m in Sources */,
+				65916325171C465A00B4AD9D /* StoresViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
