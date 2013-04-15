@@ -29,6 +29,14 @@
 		6591632F171C46B100B4AD9D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591632D171C46B100B4AD9D /* ProfileViewController.m */; };
 		65916330171C46B100B4AD9D /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6591632E171C46B100B4AD9D /* ProfileViewController.xib */; };
 		65916332171C479C00B4AD9D /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65916331171C479C00B4AD9D /* TabBarController.xib */; };
+		6591633E171C4F9E00B4AD9D /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 6591633C171C4F9E00B4AD9D /* user.png */; };
+		6591633F171C4F9E00B4AD9D /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6591633D171C4F9E00B4AD9D /* user@2x.png */; };
+		65916342171C4FBC00B4AD9D /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 65916340171C4FBC00B4AD9D /* camera.png */; };
+		65916343171C4FBC00B4AD9D /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65916341171C4FBC00B4AD9D /* camera@2x.png */; };
+		6591634E171C509C00B4AD9D /* magnifier.png in Resources */ = {isa = PBXBuildFile; fileRef = 6591634C171C509C00B4AD9D /* magnifier.png */; };
+		6591634F171C509C00B4AD9D /* magnifier@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6591634D171C509C00B4AD9D /* magnifier@2x.png */; };
+		65916352171C510300B4AD9D /* stores.png in Resources */ = {isa = PBXBuildFile; fileRef = 65916350171C510300B4AD9D /* stores.png */; };
+		65916353171C510300B4AD9D /* stores@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65916351171C510300B4AD9D /* stores@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +72,14 @@
 		6591632D171C46B100B4AD9D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		6591632E171C46B100B4AD9D /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		65916331171C479C00B4AD9D /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		6591633C171C4F9E00B4AD9D /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		6591633D171C4F9E00B4AD9D /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user@2x.png"; sourceTree = "<group>"; };
+		65916340171C4FBC00B4AD9D /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		65916341171C4FBC00B4AD9D /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		6591634C171C509C00B4AD9D /* magnifier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifier.png; sourceTree = "<group>"; };
+		6591634D171C509C00B4AD9D /* magnifier@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifier@2x.png"; sourceTree = "<group>"; };
+		65916350171C510300B4AD9D /* stores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stores.png; sourceTree = "<group>"; };
+		65916351171C510300B4AD9D /* stores@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stores@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +126,7 @@
 		6539AB6017132AF30047395C /* RecogniShop */ = {
 			isa = PBXGroup;
 			children = (
+				65916333171C4EA900B4AD9D /* Icons */,
 				6539AB6917132AF30047395C /* AppDelegate.h */,
 				6539AB6A17132AF30047395C /* AppDelegate.m */,
 				65916331171C479C00B4AD9D /* TabBarController.xib */,
@@ -148,6 +165,21 @@
 				6539AB7017132AF30047395C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65916333171C4EA900B4AD9D /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				65916350171C510300B4AD9D /* stores.png */,
+				65916351171C510300B4AD9D /* stores@2x.png */,
+				6591634C171C509C00B4AD9D /* magnifier.png */,
+				6591634D171C509C00B4AD9D /* magnifier@2x.png */,
+				65916340171C4FBC00B4AD9D /* camera.png */,
+				65916341171C4FBC00B4AD9D /* camera@2x.png */,
+				6591633C171C4F9E00B4AD9D /* user.png */,
+				6591633D171C4F9E00B4AD9D /* user@2x.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +244,14 @@
 				6591632B171C469000B4AD9D /* FavoritesViewController.xib in Resources */,
 				65916330171C46B100B4AD9D /* ProfileViewController.xib in Resources */,
 				65916332171C479C00B4AD9D /* TabBarController.xib in Resources */,
+				6591633E171C4F9E00B4AD9D /* user.png in Resources */,
+				6591633F171C4F9E00B4AD9D /* user@2x.png in Resources */,
+				65916342171C4FBC00B4AD9D /* camera.png in Resources */,
+				65916343171C4FBC00B4AD9D /* camera@2x.png in Resources */,
+				6591634E171C509C00B4AD9D /* magnifier.png in Resources */,
+				6591634F171C509C00B4AD9D /* magnifier@2x.png in Resources */,
+				65916352171C510300B4AD9D /* stores.png in Resources */,
+				65916353171C510300B4AD9D /* stores@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
